@@ -1,5 +1,33 @@
 # Shop API
 
+## Introduction
+
+```
+This is an API project that contains shop features.
+
+```
+
+## Build APP
+
+```
+go build main.go
+
+```
+
+## Run APP
+
+```
+./main.exe
+
+```
+
+## Framework
+
+```
+gin-gonic
+
+```
+
 ## Project Structure
 
 ```
