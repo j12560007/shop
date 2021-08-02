@@ -39,15 +39,6 @@ func SetRouteer() *gin.Engine {
 			order.GET("/listmine", services.OrderListMineService)
 		}
 
-		// test
-		purchase := shop.Group("/purchase")
-		{
-			purchase.GET("/listproduct", services.PurchaseListProductService)
-			// purchase.GET("/cart/list", services.PurchaseListCartService)
-			// purchase.POST("/cart/add", services.PurchaseAddToCartService)
-			// purchase.POST("/cart/remove", services.PurchaseRemoveFromCartService)
-			// purchase.POST("/cart/checkout", services.PurchaseCheckoutFromCartService)
-		}
 	}
 
 	return router
