@@ -1,0 +1,6 @@
+Port = ":8090"
+
+SqlDb = "local"
+SqlSchema = "shop"
+SqlUser = "root"
+SqlPassword = "1234"
