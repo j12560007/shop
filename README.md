@@ -67,8 +67,5 @@ gin-gonic
 ```
 
 ## Database Diagram
-
-```
 ![database_diagram](https://github.com/j12560007/shop/blob/main/shop_db.png)
 
-```
